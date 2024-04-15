@@ -91,8 +91,6 @@ const LEFT_LEG = (
         right:  0,
         rotate: "-60deg",
         transformOrigin: "right bottom"
-
-
     }}>
 
     </div>
