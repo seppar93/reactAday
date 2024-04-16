@@ -12,7 +12,7 @@ function App() {
   });
 
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
-const incorrectLetters = guessedLetters.filter(letter => !wordToGuess.includes(letter))
+  const incorrectLetters = guessedLetters.filter(letter => !wordToGuess.includes(letter))
   return (
     <div
       style={{
